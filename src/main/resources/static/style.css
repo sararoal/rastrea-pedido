@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  text-align: center;
+  background: #f2f6fc;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#resultado {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilo para cada evento */
+.evento {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.evento strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.carrier-select {
+  width: 300px !important;
+}

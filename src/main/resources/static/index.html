@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Rastrea tu pedido</title>
+  <link rel="stylesheet" href="style.css"> <!-- Vinculamos CSS -->
+  <!-- Select2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <!-- jQuery (requerido por Select2) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Select2 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+<body>
+  <h1>Rastrea tu pedido 📦</h1>
+
+    <input type="text" id="trackingNumber" placeholder="Introduce tu número de seguimiento">
+    <select id="carrier"></select>
+
+    <button id="btnBuscar">Buscar</button>
+
+    <div id="resultado"></div>
+
+  <!-- Importamos JS al final para que cargue después del HTML -->
+  <script src="app.js"></script>
+</body>
+</html>
+
