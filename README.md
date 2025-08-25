@@ -2,6 +2,8 @@
 
 Este proyecto es una aplicación web para consultar el estado de envíos y paquetes mediante número de seguimiento y compañía de transporte.
 
+![Captura de pantalla de la aplicación](captura-rastrea.png)
+
 ## Tecnologías usadas
 
 - **Java 17**
