@@ -11,17 +11,18 @@ Este proyecto es una aplicación web para consultar el estado de envíos y paque
 - **HTML, CSS, JavaScript** (frontend)
 - **Select2** (buscador en el selector de compañías)
 - **Maven** (gestión de dependencias)
+- **17TRACK** (API de tracking de seguimiento)
 
 ## ¿Cómo ponerlo en funcionamiento?
 
 1. **Clona el repositorio:**
    ```sh
-   git clone https://github.com/tuusuario/proyecto-tracker.git
-   cd proyecto-tracker
+   git clone https://github.com/sararoal/rastrea-pedido
+   cd rastrea-pedido
    ```
 
 2. **Configura las variables de entorno o el archivo `application.properties`**  
-   (añade tu clave y URL de la API de tracking si es necesario).
+   (añade tu clave y URL de la API de [17TRACK](https://api.17track.net/en/doc?version=v2.4)).
 
 3. **Compila y ejecuta el backend:**
    ```sh
